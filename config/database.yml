@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  database: android-3dev
+  host: localhost
+  username: carlos
+  password: latino
+
+# Warning: The database defined as "test" will be erased and
+# re-generated form your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  adapter: postgresql
+  database: android-3test
+  host: localhost
+  username: carlos
+  password: latino
+
+production:
+  adapter: postgresql
+  database: android-3prod
+  host: localhost
+  username: carlos
+  password: latino
